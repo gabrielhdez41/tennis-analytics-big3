@@ -1,5 +1,5 @@
 # 🎾 El Fin de la Era de los Big 3
-### Análisis del dominio de Federer, Nadal y Djokovic vs las nuevas generaciones (2015-2024)
+### Análisis del dominio generacional en el tenis ATP (2015-2024)
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
@@ -12,7 +12,7 @@
 
 Durante una década, tres jugadores redefinieron los límites del tenis hasta que el tiempo, los retiros y una nueva generación finalmente les arrebató el trono, dejando en el camino a toda una generación que nunca tuvo su oportunidad.
 
-Este proyecto analiza con datos reales la evolución del dominio en el tenis ATP entre 2015 y 2024, contando la historia de tres generaciones: el Big 3, la Generación Olvidada y la Nueva Generación.
+Este proyecto analiza con datos reales la evolución del dominio en el tenis ATP entre 2015 y 2024, contando la historia de tres generaciones: el Big 3, la Generación Olvidada y la Nueva Generación, cerrando con el duelo entre los dos jugadores que hoy dominan el circuito.
 
 ---
 
@@ -22,8 +22,9 @@ Este proyecto analiza con datos reales la evolución del dominio en el tenis ATP
 tennis-analytics-big3/
 │
 ├── notebooks/
-│   ├── capitulo1_big3_vs_nueva_gen.ipynb
-│   └── capitulo2_generacion_olvidada.ipynb
+│   ├── 01_big3_era_dominance_analysis.ipynb
+│   ├── 02_generacion_olvidada.ipynb
+│   └── 03_sinner_vs_alcaraz.ipynb
 │
 ├── imagenes/
 │   ├── 01_big3_vs_nueva_gen.png
@@ -32,7 +33,10 @@ tennis-analytics-big3/
 │   ├── 04_porcentaje_dominio.png
 │   ├── 05_gen_olvidada_finales.png
 │   ├── 06_ventana_dominio.png
-│   └── 07_gen_olvidada_individual.png
+│   ├── 07_gen_olvidada_individual.png
+│   ├── 08_sinner_vs_alcaraz_titulos.png
+│   ├── 09_superficie_sinner_alcaraz.png
+│   └── 10_h2h_alcaraz_sinner.png
 │
 └── README.md
 ```
@@ -71,7 +75,7 @@ Análisis del dominio colectivo e individual del Big 3 (Federer, Nadal, Djokovic
 
 ### Capítulo 2 — La Generación Olvidada
 
-Análisis profundo de Zverev, Medvedev, Thiem y Tsitsipas: la generación que llegó en el peor momento posible.
+Análisis profundo de Zverev, Medvedev, Thiem y Tsitsipas: la generación que llegó en el peor momento posible, aplastada por el Big 3 desde arriba y por la Nueva Gen desde abajo.
 
 **Visualizaciones:**
 - Victorias vs derrotas en finales por jugador
@@ -84,6 +88,29 @@ Análisis profundo de Zverev, Medvedev, Thiem y Tsitsipas: la generación que ll
 - Medvedev jugó 16 finales, el más activo pero bloqueado por dos generaciones
 - Zverev es el único jugador que perdió finales contra las 3 generaciones distintas
 - Su único peak (2016) ocurrió cuando el Big 3 estaba lesionado, no porque los superaran
+
+---
+
+### Capítulo 3 — Los Herederos del Trono
+
+Duelo entre Jannik Sinner y Carlos Alcaraz: los dos jugadores que tomaron el control del tenis mundial tras la caída del Big 3.
+
+**Visualizaciones:**
+- Títulos por año: el ascenso de cada uno
+- Distribución de títulos por superficie
+- Enfrentamientos directos H2H total y por superficie
+
+**Hallazgos clave:**
+- Alcaraz llegó primero al alto nivel, ganando 3 títulos grandes en 2022 con 19 años
+- Sinner explotó en 2024 con 5 títulos grandes, cifra histórica para su generación
+- Sinner es 100% especialista en cancha dura
+- Alcaraz gana en todas las superficies: dura (44%), tierra (33%) y césped (22%)
+- En duelos directos en torneos grandes Alcaraz lidera 5-2
+
+---
+
+### Capítulo 4 — En Desarrollo 🚧
+*La caída del tenis chileno: de la era dorada de Massú y González al silencio actual.*
 
 ---
 
@@ -119,7 +146,10 @@ jupyter notebook
 
 ## 🔮 Próximos Pasos
 
-- [ ] Capítulo 3: Sinner vs Alcaraz — La batalla por el trono
+- [x] Capítulo 1: El dominio del Big 3
+- [x] Capítulo 2: La Generación Olvidada
+- [x] Capítulo 3: Sinner vs Alcaraz
+- [ ] Capítulo 4: La caída del tenis chileno
 - [ ] Análisis de estadísticas de saque por generación
 - [ ] Predicción de resultados con Machine Learning
 
@@ -127,7 +157,7 @@ jupyter notebook
 
 ## 👤 Autor
 
-**Gabriel Hdez**
+**gabrielhdez41**
 - GitHub: [@gabrielhdez41](https://github.com/gabrielhdez41)
 
 ---
